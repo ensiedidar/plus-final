@@ -1,0 +1,160 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/082/775/original/cloud5.jpg?1684754974);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 15px;
+  display: block;
+}
+/* #whole {
+  max-width: 200px;
+} */
+h1 {
+  color: #3a1078;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 10px;
+  position: fixed;
+}
+
+#border {
+  position: fixed;
+  margin: 100px 10px 800px 0;
+
+  border-style: hidden;
+  padding: 20px 1px;
+  background-color: transparent;
+  color: #0c134f;
+}
+#body {
+  display: block;
+}
+#searchImage {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  left: 100px;
+  top: 20px;
+}
+#searchTitle1 {
+  position: fixed;
+  left: 220px;
+  top: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #fe0e9e;
+  font-weight: 1500;
+}
+#searchTitle2 {
+  color: #3f3d56;
+}
+#button {
+  margin-top: 10px;
+  margin-right: 800px;
+  padding: 2px;
+  width: 55px;
+  text-align: center;
+  background-color: #e11299;
+  border-style: hidden;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+#button:hover {
+  background-color: #ffffff;
+  color: #e11299;
+  cursor: pointer;
+}
+#input {
+  background-color: transparent;
+  border-style: dotted;
+  font-size: 25px;
+  color: #9a208c;
+  border-radius: 10px;
+  border-color: #3f3d56;
+  font-weight: bolder;
+}
+#dayTime {
+  position: fixed;
+  top: 280px;
+}
+
+#conditionType {
+  font-size: 20px;
+  position: fixed;
+  top: 315px;
+}
+#temperature {
+  font-size: 70px;
+  position: fixed;
+  top: 360px;
+  left: 280px;
+}
+
+#degree {
+  font-size: 20px;
+  position: fixed;
+  top: 340px;
+  left: 290px;
+}
+#icon {
+  position: fixed;
+  top: 350px;
+  left: 130px;
+}
+#humidity {
+  position: fixed;
+  top: 470px;
+}
+#windspeed {
+  position: fixed;
+  top: 500px;
+}
+#celsius-link.active {
+  text-decoration: none;
+  color: black;
+}
+#fahrenheit-link.active {
+  text-decoration: none;
+  color: black;
+}
+#edy {
+  color: rgb(153, 7, 114);
+  position: fixed;
+  top: 690px;
+  left: 10px;
+  font-size: 20px;
+}
+#edy:hover {
+  color: #f32cdc;
+  cursor: pointer;
+}
+
+#forecastCol {
+  margin-top: 150px;
+  border: #3f3d56;
+  border-style: dashed;
+}
+#forecastImage {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  left: 750px;
+  top: 20px;
+}
+#forecastTitle {
+  position: fixed;
+  left: 920px;
+  top: 80px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #00060f;
+  font-weight: 1500;
+}
+#forecastTitle2 {
+  color: #006eff;
+}

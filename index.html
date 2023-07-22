@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌈 Rainbow Weatherapp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="project.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h3>
+              <a href="https://github.com/ensiedidar/project.git" id="edy"
+                >Coded by Ensiyeh Didar</a
+              >
+            </h3>
+            <div>
+              <img src="image/searchr2.png" id="searchImage" alt="" /><span
+                id="searchTitle1"
+                >Search <span id="searchTitle2">Your</span> Location!🤗
+              </span>
+            </div>
+            <div id="border">
+              <div class="col-6">
+                <form id="form" action="">
+                  <div class="col-6">
+                    <input
+                      type="text"
+                      placeholder="Type a city.."
+                      autofocus="on"
+                      autocomplete="off"
+                      id="input"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <input id="button" type="submit" value="Search" />
+                  </div>
+                </form>
+              </div>
+              <h1 class="col-8" id="cityInput">Sydney NSW, Australia</h1>
+            </div>
+          </div>
+          <div class="col-6" id="forecastCol">
+            <img src="image/fore.png" id="forecastImage" alt="" />
+            <div id="forecastTitle">
+              Find Your Location's <span id="forecastTitle2">Forecast!😉</span>
+            </div>
+            <div id="firstForeRow"></div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div id="dayTime">
+            <span>📅 </span><span id="date">Wednesday 12:15</span>
+          </div>
+          <div id="conditionType">
+            <span>🌡️ </span><span id="condition">Partly Cloudy</span>
+          </div>
+          <div class="col-3">
+            <div id="temperature">19</div>
+            <div class="col-3" id="degree">
+              <a href="" id="celsius-link">°C</a
+              ><span
+                >|<span><a href="" id="fahrenheit-link">°F</a></span></span
+              >
+            </div>
+            <img src="#" id="icon" />
+          </div>
+
+          <div id="humidity">
+            <span>💦 </span>Humidity: <span id="humid">77%</span>
+          </div>
+          <div id="windspeed">
+            <span>🌬️</span> Wind Speed: <span id="speed">8 km/h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>
